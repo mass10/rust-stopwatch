@@ -7,7 +7,7 @@ license = "MIT"
 description = "A simple stopwatch for Rust"
 repository = "https://github.com/mass10/rust-stopwatch/"
 documentation = ""
-categories = ["development-tools::build-utils"]
+categories = ["development-tools"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
