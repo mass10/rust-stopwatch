@@ -32,6 +32,22 @@ impl FormatterForDuration for std::time::Duration {
 			return s;
 		}
 	}
+	// fn to_string(&self) -> String {
+	// 	let millis = self.as_millis();
+	// 	let sec = millis / 1000;
+	// 	let millis = millis % 1000;
+	// 	let min = sec / 60;
+	// 	let sec = sec % 60;
+	// 	let hour = min / 60;
+	// 	let sec = sec % 60;
+	// 	if 10 <= hour {
+	// 		let s = format!("{}:{:02}:{:02}:{:03}", hour, min, sec, millis);
+	// 		return s;
+	// 	} else {
+	// 		let s = format!("{:02}:{:02}:{:02}:{:03}", hour, min, sec, millis);
+	// 		return s;
+	// 	}
+	// }
 }
 
 /// Stopwatch
